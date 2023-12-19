@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBetyShop</title>
+    <link rel="stylesheet" href="style.css">
+        <style>
+               
+ body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header, nav, section, footer {
+            margin-bottom: 20px;
+            background-color: #333;
+            padding: 10px;
+            width: 80%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 20%;
+            margin: 1.5%;
+            float: left;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            width: 80%;
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+        }
+            .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        </style>
+</head>
+
+<body>
+    <header>
+        <h1>>GameBetyShop</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="about.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About us</h2>
+        <p>We're on a mission to enable everyone to discover the joy of gaming. The future of gaming goes beyond entertainment and it's a privilege to help shape it! We're building a safe, affordable, and sustainable marketplace for the gamers of today and tomorrow.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Digital Game Key Marketplace</li>
+          <li>Secure Transactions</li>
+          <li>Subscription Services</li>
+            
+            <!-- Add more services as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Products</h2>
+        <article class="project">
+             <h3>Steam Games</h3>
+              <div class="column">
+                    <img src="https://cdn-products.eneba.com/resized-products/zPvWMjFU-w4JY-rhn2ZXWk-0wha2xxaQ1pWZwU_SFF0_70x92_1x-0.jpg" alt="Project Image" style="width:80%">
+                  </div>
+             <h3>Ps +</h3>
+                 <div class="column">
+                     <img src="https://cdn-products.eneba.com/resized-products/28-tRlu6B-T7JMmwXHZQB22-CxujCg1kKVYMlbLz6yI_70x92_1x-0.jpg" alt="Project Image" style="width:80%">
+                  </div>
+             <h3>Anti-Virus</h3>
+                <div class="column">
+                     <img src="https://cdn-products.eneba.com/resized-products/nz-Tr2aoiN0H1eTxtYgNGNpLI1qQPBJksfCWOJTeYyA_70x92_1x-0.jpeg" alt="Project Image" style="width:80%">
+                  </div>
+            <!-- Repeat for each project -->
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form method="post" action="path-to-server-side-script">
+<p>Email: bety.butnaru@orizont.md            Tel:0600123721</p>
+          </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2000 GameBetyShop All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
